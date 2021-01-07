@@ -22,6 +22,7 @@ t4	| {T-shirt, Trousers, Jacket}
 t5	| {T-shirt, Trousers, Sneakers, Jacket, Belt}
 t6	| {Trousers, Sneakers, Belt}
 t7	| {Trousers, Belt, Sneakers}
+</br>
 
 In the table above we can see seven transactions from a clothing store. Each transaction shows items bought in that transaction. We can represent our items as an **item set** as follows</br>
 
@@ -86,3 +87,7 @@ Greater lift values indicate stronger associations. Let’s see some examples:
 * ### lift(T-shirt⇒Belt)=(2/7)/((4/7)(4/7))=0.875
 
 * ### lift({T-shirt,Trousers}⇒{Belt})=(2/7)/((3/7)(4/7))=1.17
+
+To view My analysis and implementation of Apriori algorithm open the file **Apriori Learning algorithm From scratch.ipynb** :star_struck:
+
+I have used the dataset provided by SuperDataScience on Udemy.
